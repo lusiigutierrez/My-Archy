@@ -30,6 +30,13 @@ Instala las dependencias necesarias ejecutando:
 pip install -r requirements.txt
 ```
 
+🔽 Descargar el modelo Mistral (una vez)
+
+My Archy utiliza el modelo Mistral 7B Instruct a través del servidor local Ollama.
+Este modelo no viene preinstalado, por lo que es necesario descargarlo manualmente la primera vez:
+```text
+ollama run mistral:7b-instruct-v0.2-q4_K_M
+```
 
 ## ▶️ Cómo usar
 ### 1. Iniciar el servidor Ollama
